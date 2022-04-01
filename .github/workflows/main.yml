@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: 
             emachado/rotten-potatoes:latest
-            emachado/rotten-potatoes:${{github.run_number}}
+            emachado/rotten-potatoes:v${{github.run_number}}
